@@ -16,7 +16,7 @@ function Login() {
      <Box
     >
         <Paper
-        className="card-content"
+        className="login-content"
         elevation={4}
         sx={{ 
           width: "90%",
