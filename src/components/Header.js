@@ -11,7 +11,7 @@ import Menu from '@mui/icons-material/Menu'
 function Header() {
   return (
     <React.Fragment>
-      <AppBar position="relative" color="grey">
+      <AppBar position="sticky" color="grey">
         <Toolbar>
           <IconButton edge="start" color="inherit" aria-label="menu">
             <Menu />

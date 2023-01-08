@@ -22,7 +22,7 @@ function ProductCard(props) {
   };
 
   return (
-    <Link to="/product" state={{ id: car.id }} key={car.id}>
+    <Link to="/product" state={{ car: car }} key={car.id} >
       <Card 
        sx={{ height: { height } ,mt: 1 }} elevation={4} 
         style={backgroundStyle}>
