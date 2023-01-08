@@ -1,11 +1,28 @@
 .App {
   text-align: center;
 }
+a{
+  text-decoration: none;
+}
 #header{
   text-align: center;
 }
-.preview-img{
-  width: 100vw;
-  opacity: 50%;
-object-fit: contain;
+.MuiListItemText-primary{
+  font-weight: 600 !important;
+  font-size: 1.4rem !important;
+  color: white !important;
+}
+.MuiListItemText-secondary{
+  font-weight: 300 !important;
+  font-size: 0.9rem !important;
+  color: white !important;
+}
+.alice-carousel ul li img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.back-btn{
+  position: sticky;
+  justify-content: left;
 }
